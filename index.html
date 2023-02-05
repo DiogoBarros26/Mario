@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <link rel="stylesheet" href="./src/Css/reset.css">
+    <link rel="stylesheet" href="./src/Css/Estilos.css">
+    <link rel="stylesheet" href="./src/Css/responsivo.css">
+    <link rel="shortcut icon" href="./src/Imagens/favicon.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Super Mario Bross o Filme</title>
+
+</head>
+
+<body>
+
+     <div class="fundo-video">
+        <video class="video" autoplay loop muted>
+            <source src="./src/videos/video-mario.mp4" type="video/mp4">
+
+        </video> 
+
+    </div>
+
+
+    <header class="cabecalho">
+        <a>
+            <img class="logo" src="src/Imagens/logo-chapeu-mario.png" alt="logo-chapeu-mario">
+        </a>
+        <nav>
+            <Ul class="menu">
+                <li><a href="#">Home</a> </li>
+                <li><a href="#"> Detalhes</a> </li>
+            </Ul>
+        </nav>
+    </header>
+    <main class="container">
+        <Div class="informacoes">
+            <img class="imagens-titulo" src="./src/Imagens/titulo.png" alt="Imagem com o titulo do filme">
+            <p class="descricao">
+               Mario é um encandor junto com seu irmão Luidgi. Um dia eles vão parar no reino dos cogumelos.<br> Governado pela Princesa Peach, mas ameaçado pelo rei dos Koopas, que faz de tudo para conseguir reinar em todos os lugares
+            </p>
+            <button class="botao-trailer">Veja o trailer</button>
+        </Div>
+        <Img class="mario" src="./src/Imagens/super-mario-chars.png" alt=" personagens do filme" />
+
+        <div class="modal">
+            <div class="conteudo-modal">
+                <Span class="fechar-modal">X</Span>
+                <iframe id="video"  width="560" height="315" src=https://www.youtube.com/embed/Cb4WV4aXBpk frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </main>
+    <script src="./src/js/indes.js"></script>
+
+
+</body>
+
+</html>
